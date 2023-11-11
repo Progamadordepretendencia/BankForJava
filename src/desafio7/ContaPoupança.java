@@ -42,8 +42,8 @@ public class ContaPoupança extends ContaBancaria {
         System.out.println("-----------------------");
         System.out.println("Numero da conta: " + contaPoupança.getNumeroDaConta());
         System.out.println("Nome do Titular: " + contaPoupança.getNomeDoTitular());
-        System.out.println("Saldo inicial: " + contaPoupança.getSaldo());
-        System.out.println("taxa de juros: " + contaPoupança.getTaxaJuros());
+        System.out.println("Saldo inicial: R$" + contaPoupança.getSaldo());
+        System.out.println("taxa de juros: " + contaPoupança.getTaxaJuros()+"%");
         System.out.println("-----------------------");
     }
 
